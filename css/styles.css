@@ -15,7 +15,6 @@ div#row1 {
   background-image: url("../img/backgrounds/landing.jpg");
   background-repeat: no-repeat;
   height: 636px;
-  text-align: topleft;
 }
 span {
   font-size: 70px;
@@ -74,6 +73,17 @@ div#col1-r2 {
 div#row2 {
   text-align: center;
 }
+div.hover: hover {
+  color: #ffffff;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 30px;
+}
 
 /*row3*/
 
@@ -117,8 +127,12 @@ div#row7 {
   text-align: center;
 
 }
+h3#row7 {
+  color: #ffffff;
+}
 /*row8*/
 div#row8 {
   background-color: #f15a29;
   text-align: center;
+  color: #ffffff;
 }
