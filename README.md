@@ -1,6 +1,7 @@
 # ANITA'S KITCHEN
 
-## Author Ankunda Patience
+## Author
+Ankunda Patience
 
 ## Description
  This is a landing page for Anita's restuarant. Done in HTML,CSS and Javascript.
