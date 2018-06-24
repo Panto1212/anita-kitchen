@@ -1,22 +1,29 @@
 body {
-  font-family: "Pridi";
+  font-family: 'Pridi', serif;
 }
 
 
 
 /*row1*/
-
+h1#row1 {
+  color: #ffffff;
+}
+div.center {
+  text-align: center;
+}
 div#row1 {
   background-image: url("../img/backgrounds/landing.jpg");
   background-repeat: no-repeat;
   height: 636px;
+  text-align: topleft;
 }
 span {
   font-size: 70px;
   cursor: pointer;
   color: #ffffff;
-  width: 100px;
+  font-stretch: extra-expanded;
 }
+
 
 div.sidenav {
     height: 100%;
@@ -28,14 +35,15 @@ div.sidenav {
     background-color: rgb(241, 90, 41, 80%);
     overflow-x: hidden;
     transition: 1s;
-    padding-top: 100px;
+    padding-top: 200px;
     text-align: center;
 }
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: #ffffff;
+    font-weight: bold;
     display: block;
     transition: 0.3s;
   }
@@ -66,7 +74,6 @@ div#col1-r2 {
 div#row2 {
   text-align: center;
 }
-
 
 /*row3*/
 
