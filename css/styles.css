@@ -1,12 +1,23 @@
+body {
+  font-family: "Pridi";
+}
+
+
+
 /*row1*/
 
 div#row1 {
   background-image: url("../img/backgrounds/landing.jpg");
   background-repeat: no-repeat;
   height: 636px;
-
   text-align: center;
 }
+span {
+  font-size: 70px;
+  cursor: pointer;
+
+}
+
 
 /*row2*/
 
