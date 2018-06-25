@@ -143,7 +143,30 @@ div#row5 {
 div#row6 {
   text-align: center;
 }
-
+h4#row6 {
+  color: #f15a29;
+  font-weight: bold;
+}
+h5#row6 {
+  font-weight: bold;
+}
+div#row6 {
+  box-shadow: 0.1px 0px 1px 3px rgb(224, 222, 222);
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 0px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+#customers {
+  border-right: solid rgb(0,0,0,30%);
+  margin-left: -50px;
+}
+#about {
+  margin-left : 30px;
+}
 /*row7*/
 
 div#row7 {
