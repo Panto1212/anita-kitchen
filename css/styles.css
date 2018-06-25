@@ -130,12 +130,15 @@ div#row5 {
   background-repeat: no-repeat;
   height: 599px;
   text-align: center;
+  padding-top: 150px;
 }
+
 #row5-div2 {
   background-color: #ffffff;
-  text-align: center;
+  text-align: left;
   height: 300px;
   padding-left: 50px;
+  padding-right: -100px;
 }
 
 /*row6*/
