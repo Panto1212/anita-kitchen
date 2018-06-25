@@ -7,7 +7,7 @@
   <title>Anita's Kitchen</title>
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Pridi" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Pridi+Text" rel="stylesheet">
 
 </head>
 
@@ -40,38 +40,38 @@
       <div class="col-md-3">
         <div class="row" id="col1-r1">
 
-            <h3>Happy Hour</h3>
+          <h3>Happy Hour</h3>
 
         </div>
         <!-- row 2 -->
         <div class="row" id="col1-r2">
 
-            <h3>Party Time</h3>
+          <h3>Party Time</h3>
 
         </div>
 
       </div>
       <!-- col 2 -->
 
-        <div class="col-md-3" id="r2-col2">
-          <div class="breakfast">
-            <img src="img/foodtop/breakfast.jpg">
-            <div class="centered">Breakfast</div>
-          </div>
+      <div class="col-md-3" id="r2-col2">
+        <div class="breakfast">
+          <img src="img/foodtop/breakfast.jpg">
+          <div class="centered">Breakfast</div>
         </div>
-        <!-- col 3 -->
-        <div class="col-md-3">
-          <div class="lunch">
+      </div>
+      <!-- col 3 -->
+      <div class="col-md-3">
+        <div class="lunch">
           <img src="img/foodtop/lunch.jpg">
           <div class="centered">Lunch</div>
         </div>
       </div>
-        <!-- col 4 -->
-        <div class="col-md-3">
-          <div class="dinner">
+      <!-- col 4 -->
+      <div class="col-md-3">
+        <div class="dinner">
           <img src="img/foodtop/dinner.jpg">
           <div class="centered">Dinner</div>
-</div>
+        </div>
       </div>
     </div>
   </div>
@@ -125,10 +125,26 @@
 
   <!--row 5  -->
   <div class="container-fluid" id="row5">
-    <div class="row">
-      <img src="img/fastfood/chickenBurger.jpg">
-      <img src="img/fastfood/beefBurger.jpg">
-      <img src="img/fastfood/chickenPizza.jpg">
+    <div class="container" id="row5-div2">
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Fast Food</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Drinks</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Chicken</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Rice</a>
+        </li>
+      </ul>
+      <div class="row">
+        <img src="img/fastfood/chickenBurger.jpg">
+        <img src="img/fastfood/beefBurger.jpg">
+        <img src="img/fastfood/chickenPizza.jpg">
+      </div>
     </div>
   </div>
   <br>
@@ -162,38 +178,40 @@
   <br>
   <!-- row 7 -->
   <div class="container-fluid" id="row7">
-        <h3 id="row7">Get our daily food items delivered to your email</h3>
-
-
+    <div class="container">
+      <h3 id="row7">Get our daily food items delivered to your email</h3>
+      <div class="row" id="blanks">
         <form>
-
           <div class="form-group">
             <div class="row">
-            
-            <input id="email" class="form-control" type="email">
-
-
-            <button type="submit" class="btn">Subscribe</button>
-
-        </div>
-</div>
-
+              <input id="email" class="form-control" type="email">
+              <button type="submit" class="btn">Subscribe</button>
+            </div>
+          </div>
         </form>
-</div>
+      </div>
+    </div>
+  </div>
 
 
   <!-- row 8 -->
   <div class="container-fluid" id="row8">
-    <img src="img/footerlogos/logo_white.png" align="left">
-    <h3 id="row8">MENU<h3>
+    <div class="container" id="logo-name">
+    <img src="img/footerlogos/logo_white.png"id="img-row8">
+    <h3 id="menu-row8">MENU<h3>
+    </div>
     <p>That's What We Are</p>
+    <br>
     <img src="img/footerlogos/facebook.png">
     <img src="img/footerlogos/twitter.png">
     <img src="img/footerlogos/pinterest.png">
+    <br>
+    <br>
     <footer>2016 Menu Restaurant</footer>
   </div>
 
 <script src="js/script.js"></script>
+<script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 </body>
 
 </html>

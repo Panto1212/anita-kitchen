@@ -70,17 +70,28 @@ div.sidenav .closebtn {
 
 div#col1-r1 {
   height: 105px;
+  border: 0px;
 }
 
 div#col1-r2 {
   height: 105px;
   background-color: #f15a29;
-
+  border: 0px;
 }
 
 div#row2 {
   text-align: center;
   width: 100%;
+  padding: 0;
+}
+div#r2-col2 {
+  border: 0px;
+}
+div#r2-col3 {
+  border: 0px;
+}
+div#r2-col4 {
+  border: 0px;
 }
 
 .centered {
@@ -120,6 +131,12 @@ div#row5 {
   height: 599px;
   text-align: center;
 }
+#row5-div2 {
+  background-color: #ffffff;
+  text-align: center;
+  height: 300px;
+  padding-left: 50px;
+}
 
 /*row6*/
 
@@ -149,9 +166,14 @@ h3#row7 {
   color: #ffffff;
   width: 250px;
   height: 45px;
+  cursor: pointer;
 }
-
-
+form {
+  border: 3px;
+}
+#blanks {
+  display: inline;
+}
 
 /*row8*/
 
@@ -159,4 +181,14 @@ div#row8 {
   background-color: #f15a29;
   text-align: center;
   color: #ffffff;
+  padding-top: 20px;
+}
+#img-row8 {
+  float: left;
+}
+#logo-name {
+  padding-left:500px;
+  padding-right: 500px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
