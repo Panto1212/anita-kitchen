@@ -151,15 +151,19 @@ div#row7 {
   background-repeat: no-repeat;
   height: 301px;
   text-align: center;
+  padding-top: 70px;
 }
 
 h3#row7 {
   color: #ffffff;
 }
 #email {
-  background-color: rgb(255, 255, 255, 20%);
+  background-color: rgb(255, 255, 255, 30%);
   width: 350px;
   height: 45px;
+  float: left;
+  border: 0px;
+  color: #ffffff;
 }
 .btn {
   background-color: #f15a29;
@@ -167,9 +171,11 @@ h3#row7 {
   width: 250px;
   height: 45px;
   cursor: pointer;
+  float: right;
 }
 form {
-  border: 3px;
+padding-left: 335px;
+padding-right: 200px;
 }
 #blanks {
   display: inline;
